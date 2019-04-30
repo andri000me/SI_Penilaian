@@ -1,0 +1,58 @@
+#ndikendii-calendar {
+ margin: 0 auto;
+ width: 100% !important;
+ }
+ 
+#ndikendii-calendar th {
+ background-color: rgb(218, 62, 62) !important;
+ border: 1px solid #fff;
+ font-weight: bold;
+ padding: 8px;
+ text-align: center;
+ }
+
+#ndikendii-calendar .mm  {
+ color: #fff;
+ }
+ 
+#ndikendii-calendar td {
+ background: #afdefa;
+ border: 1px solid #fff;
+ padding: 8px;
+ text-align: center;
+ }
+ 
+#ndikendii-calendar .today {
+ background-color: rgb(218, 62, 62) !important; 
+ color: #fff;
+ }
+ 
+#ndikendii-calendar .today a {
+ color: #fff;
+ }
+
+#ndikendii-calendar .otherday {
+ background: #eee !important; 
+ font-size: 14px;
+ text-align: center;
+ background-color: Gainsboro;
+ border-right-style: dotted;
+ border-right-color: LightGray;
+ color: Gray;
+ cursor: default
+ }
+ 
+#ndikendii-calendar caption {
+ background-color: rgb(218, 62, 62);
+ color: #fff !important;
+ font-size: 20px;
+ text-align: center;
+ font-weight: bold;
+ }
+
+#ndikendii-calendar #next, #prev {
+    width: 15px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer 
+    }
